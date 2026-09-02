@@ -21,7 +21,7 @@ public:
                         ans.push_back({nums[i],nums[j],nums[p],nums[q]});
                         p++;
                         q--;
-                        while(p<q && nums[p]==nums[p+1]) p++;
+                        while(p<q && nums[p]==nums[p-1]) p++;
                     }
                 }
                 j++;
