@@ -22,10 +22,10 @@ public:
                 } else{
                     vector<int>temp={ nums[i], nums[j], nums[k]};
                     ans.push_back(temp);
-                    j++;
-                    k--;
-                    while(j<k && nums[j]==nums[j-1]) j++;
-                    while(j<k && nums[k]==nums[k+1]) k--;
+                    j++; //move away from the triplet
+                    k--; //to avoid dupicate triplets
+                    while(j<k && nums[j]==nums[j-1]) j++; //skip duplicate values of j
+                    while(j<k && nums[k]==nums[k+1]) k--; //skip duplicate values of k
                 }
             }
         }
