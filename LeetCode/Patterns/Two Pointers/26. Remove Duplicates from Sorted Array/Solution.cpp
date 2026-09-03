@@ -2,15 +2,19 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int n= nums.size();
-        int position=0;
-        for(int i =0; i<n-1; i++) {
-            if(nums[i] != nums[i+1]) {
-                nums[position] = nums[i]; //sorted hai duplicates are always next to each other
-                position++;
-            }
-            }
-             nums[position]=nums[n-1];
-             position++;
-        return position;
+        int original=n;
+        unordered_map<int, int>m;
+        int count=0;
+       for(int i=0; i<n; i++) {
+        if(m.find(nums[i]) == m.end()) {
+           m[nums[i]]=i;
+           count++;
+        } else{
+            nums.erase(nums.begin()+i);
+            i--;
+            n--;
+        }
+       }
+       return count;
     }
 };
