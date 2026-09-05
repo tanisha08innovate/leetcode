@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 7 / 150 (4.7%)
+- **Completed:** 8 / 150 (5.3%)
 
 ---
 
@@ -25,7 +25,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Two Sum II - Input Array Is Sorted
 - [x] [3Sum](./C++/Medium/15. 3Sum/)
 - [ ] Container With Most Water
-- [ ] Trapping Rain Water
+- [x] [Trapping Rain Water](./C++/Hard/42. Trapping Rain Water/)
 
 ### 📂 Sliding Window
 - [x] [Best Time to Buy and Sell Stock](./C++/Easy/121. Best Time to Buy and Sell Stock/)
