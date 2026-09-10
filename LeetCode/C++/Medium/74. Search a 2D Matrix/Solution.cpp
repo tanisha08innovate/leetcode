@@ -24,7 +24,7 @@ bool searchinrow(vector<vector<int>>& mat, int tar, int midrow) {
         int m = mat.size(); //row
         int n= mat[0].size(); //column
         int srow=0;
-        int erow=n-1;
+        int erow=m-1;
         while(srow<=erow) {
             int midrow= srow+(erow-srow)/2;
 
