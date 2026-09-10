@@ -28,7 +28,7 @@ bool searchinrow(vector<vector<int>>& mat, int tar, int midrow) {
         while(srow<=erow) {
             int midrow= srow+(erow-srow)/2;
 
-            if(tar >= mat[midrow][0] && tar<= mat[midrow][n-1]) {
+            if(tar >= mat[midrow][0] && tar< mat[midrow][n-1]) {
                 //founf the row
                 //now BS on this row for number
                 return searchinrow(mat, tar, midrow);
