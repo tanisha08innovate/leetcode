@@ -4,7 +4,7 @@ public:
         int n = matrix.size();
         int m = matrix[0].size();
         int r= 0;
-        int c= n-1;
+        int c= m-1;
         while(r<m && c>=0){
             if(target==matrix[r][c]) {
                return true;
