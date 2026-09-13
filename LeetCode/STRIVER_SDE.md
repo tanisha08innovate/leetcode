@@ -3,14 +3,14 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 11 / 76 (14.5%)
+- **Completed:** 12 / 76 (15.8%)
 
 ---
 
 ## Checklist
 
 ### 📂 Arrays & Matrix
-- [ ] Set Matrix Zeroes
+- [x] [Set Matrix Zeroes](./C++/Medium/73. Set Matrix Zeroes/)
 - [ ] Pascal's Triangle
 - [x] [Next Permutation](./C++/Medium/31. Next Permutation/)
 - [x] [Maximum Subarray](./C++/Medium/53. Maximum Subarray/)
