@@ -9,8 +9,7 @@ public:
 
     for(int i=0; i<n; i++) {
        first=nums[i];
-       second=nums[i];
-       if(m.find(second) != m.end()) {
+       if(m.find(first) != m.end()) {
         m[first]++;
        } else{
         m[first]=1;
