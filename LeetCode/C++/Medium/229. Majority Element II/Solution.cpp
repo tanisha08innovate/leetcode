@@ -14,7 +14,7 @@ public:
        } else{
         m[first]=1;
        }
-        if(m[first]>n/3 ) {
+        if(m[first]>n/3) {
        ans.push_back(first);
     }
     }
