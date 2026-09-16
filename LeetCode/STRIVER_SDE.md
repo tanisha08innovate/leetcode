@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 14 / 76 (18.4%)
+- **Completed:** 15 / 76 (19.7%)
 
 ---
 
@@ -25,7 +25,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Search a 2D Matrix](./C++/Medium/74. Search a 2D Matrix/)
 - [ ] Pow(x, n)
 - [x] [Majority Element](./C++/Easy/169. Majority Element/)
-- [ ] Majority Element II
+- [x] [Majority Element II](./C++/Medium/229. Majority Element II/)
 - [ ] Unique Paths
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [x] [4Sum](./C++/Medium/18. 4Sum/)
