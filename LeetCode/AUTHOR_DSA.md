@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 1 / 238 (0.4%)
+- **Completed:** 2 / 238 (0.8%)
 
 ---
 
@@ -92,7 +92,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Single Number
 - [ ] Single Element in a Sorted Array
 - [ ] Majority Element
-- [ ] Majority Element II
+- [x] [Majority Element II](./C++/Medium/229. Majority Element II/)
 - [ ] Count Nice Pairs
 
 ### 📂 MODULE  3.5: SORTINGBASED THINKING Sort
