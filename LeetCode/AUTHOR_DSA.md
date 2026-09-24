@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 4 / 238 (1.7%)
+- **Completed:** 5 / 238 (2.1%)
 
 ---
 
@@ -120,7 +120,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 MODULE  3.8: GREEDYLIKE SIMULATION Best
 - [ ] Best Time to Buy and Sell Stock
 - [ ] Best Time to Buy and Sell Stock II
-- [ ] Rotate Array
+- [x] [Rotate Array](./C++/Medium/189. Rotate Array/)
 - [ ] Lemonade Change
 - [ ] Time Needed to Buy Tickets
 - [ ] Boats to Save People
