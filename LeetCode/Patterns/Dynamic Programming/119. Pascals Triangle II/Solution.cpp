@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> getRow(int rowIndex) {
         int n = rowIndex;
-        int ans=1;
+       ans=1;
         vector<int>result;
         result.push_back(1);
         for(int i=1; i<=n; i++) {
